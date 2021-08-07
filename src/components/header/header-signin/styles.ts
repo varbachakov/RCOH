@@ -8,7 +8,7 @@ const styles = css`
     align-items: center;
     font-size: ${typography.fontSize.three};
     line-height: ${typography.lineHeight.three};
-    width: 90px;
+    width: 100%;
     color: ${colors.dark.one};
     cursor: pointer;
     flex-shrink: 0;

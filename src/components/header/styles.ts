@@ -10,7 +10,7 @@ const styles = css`
 
   .header__mode {
     display: grid;
-    grid-template-columns: 90px 1fr 90px;
+    grid-template-columns: 90px 1fr 120px;
     grid-template-rows: 1fr 1fr;
     gap: 10px 0;
     grid-template-areas:
