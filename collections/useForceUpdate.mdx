@@ -1,0 +1,16 @@
+~~~js
+import { useReducer } from 'react'
+
+export const useForceUpdate = () => useReducer(state => !state, false)[1]
+
+// Examples
+const ForceUpdate = () => {
+  const forceUpdate = useForceUpdate()
+
+  useEffect(() => forceUpdate(), [forceUpdate])
+
+  return <div>useForceUpdate</div>;
+};
+
+export default ForceUpdate;
+~~~
